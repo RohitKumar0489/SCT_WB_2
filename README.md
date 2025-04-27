@@ -1,4 +1,5 @@
-![Screenshot 2025-04-27 223452](https://github.com/user-attachments/assets/580fc5e8-0194-4d3e-9f61-9313caa7fd46)
+![Uploading Screenshot 2025-04-27 222943.png…]()
+
 
 
 A simple, interactive, and user-friendly stopwatch web application with start, pause, reset, and lap time functionality.
