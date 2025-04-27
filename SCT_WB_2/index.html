@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChronoMaster - Stopwatch</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <h1>ChronoMaster</h1>
+        <div class="stopwatch">
+            <div class="display">
+                <span id="hours">00</span>:
+                <span id="minutes">00</span>:
+                <span id="seconds">00</span>.
+                <span id="milliseconds">00</span>
+            </div>
+            <div class="controls">
+                <button id="startBtn"><i class="fas fa-play"></i> Start</button>
+                <button id="pauseBtn" disabled><i class="fas fa-pause"></i> Pause</button>
+                <button id="resetBtn" disabled><i class="fas fa-redo"></i> Reset</button>
+                <button id="lapBtn" disabled><i class="fas fa-flag"></i> Lap</button>
+            </div>
+            <div class="laps" id="lapsContainer">
+                <h3>Lap Times</h3>
+                <ul id="lapsList"></ul>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
